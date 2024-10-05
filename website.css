@@ -1,0 +1,491 @@
+body{
+  margin: 0%;
+  background-image:url("backg img.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+    
+}
+
+.login-full{
+  width: 320px;
+  height: 400px; 
+  margin: 80px 0 0 65%;
+}
+
+
+.button-one{
+            
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:50px;
+  font-style: normal;
+  font-size: 16px;
+  background-color:transparent;
+  border: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  height: 40px;
+  width: 83px;
+  margin-left: 100px;
+        
+}
+
+.button-one:hover{
+  opacity: 0.5;
+}
+
+
+.button-two{
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:50px;
+  font-style: normal;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  height: 40px;
+  width: 83px;
+  margin-left: 50px;
+    
+}
+
+.button-two:hover{
+  opacity: 0.5;
+}
+
+  
+
+.button-three{
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:50px;
+  font-style: normal;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  height: 40px;
+  width: 83px;
+  margin-left: 50px;
+}
+
+.button-three:hover{
+  opacity: 0.5;
+}
+
+  
+
+.button-four{
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:50px;
+  font-style: normal;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  height: 40px;
+  width: 83px;
+  margin-left: 50px;
+   
+}
+
+.button-four:hover{
+  opacity: 0.5;
+}
+
+ 
+.button-five{
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:50px;
+  font-style: normal;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  height: 40px;
+  width: 86px;
+  margin-left: 50px;
+  margin-right: 390px;
+    
+}
+
+.button-five:hover{
+  opacity: 0.5;
+}
+
+.button-six{
+  color: rgb(255, 255, 255);
+  border: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-top: 8px;
+  margin-left: 80px;
+    
+}
+
+.button-six:hover{
+  opacity: 0.5;
+}
+
+.button-six{
+  display: flex;
+}
+
+.dropdown{
+  display:inline-block;
+}
+
+.dropdown a{
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:50px;
+  font-style: normal;
+  display: block;
+  border-radius: 6px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;   
+  padding-right: 10px;  
+      
+}
+
+.dropdown a:hover{
+  background-color:rgba(66, 63, 63, 0.593);
+}
+
+.dropdown .languages{
+  display:none;
+  position: absolute;
+  margin-right: 10px;
+  margin-top: 2px;
+  width: 100px;
+  padding:5px 5px 5px 5px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 6px;
+  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+    
+}
+  
+.dropdown:hover .languages{
+  display:block;
+  cursor: pointer;
+}
+
+ 
+
+.button-seven{
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+  font-size: 16px;
+  background-color:rgba(66, 63, 63, 0.73);
+  border: 0px;
+  border-radius: 7px;
+  cursor: pointer;
+  opacity: 0.8;
+  height: 35px;
+  width: 80px;
+  margin-top: 3px;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding-left: 4px;
+  padding-right:4px;
+}
+
+.button-seven:hover{
+  opacity: 0.9;
+  background-color: rgba(117, 117, 117, 0.81);
+}
+  
+.button-eight{
+  color:black;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-size: 16px;
+  background-color:rgb(0, 247, 255);
+  border: 0px;
+  border-radius: 7px;
+  cursor: pointer;
+  opacity: 0.7;
+  height: 35px;
+  width: 80px;
+  margin-top: 3px;
+  padding-left:10px;
+  padding-right:10px;
+    
+}
+
+.button-eight:hover{
+  opacity: 0.9;
+    
+}
+
+.blaa{
+  display: flex;
+}
+
+
+.line-up{
+  display: flex;
+  flex-direction: row;
+  margin-top:40px;
+  
+}
+
+.hwb{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    background-color: transparent;
+    text-align: center;
+    margin:0 0 0 0;
+}  
+
+.hwb2{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    background-color: transparent;
+    text-align: center;
+    margin:0 0 30px 0;
+
+}
+
+
+
+.login-full .input-sub{
+  position:relative;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0 0 0;
+}
+
+ .input-sub input{
+    width: 310px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 0%;
+    margin:0 0 0 0;
+    
+    
+}
+
+.input-sub .bx{
+  position:absolute;
+  right: 10px;
+  bottom: 18px;
+  opacity: 0.5;
+  cursor: pointer;
+  
+}
+
+.input-subb{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.input-subb2{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+.button-onee{
+    background: transparent;
+    border: none;
+    outline: none;
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:10px;
+    margin-left: 223px;
+    padding: 0%;
+    cursor: pointer;
+    opacity: 0.6;
+    margin-bottom: 30px;
+
+}
+
+.button-onee:hover{
+  opacity: 0.9;
+}
+
+.button-twoo{
+    width: 320px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding-right: 5px;
+    padding-left: 0%;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size:14px;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 30px;    
+}
+
+.button-twoo:hover{
+  opacity: 0.9;
+  
+}
+
+
+.social-b{
+  margin-top: 20px;
+  height: 44px;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:0 0 30px 0;
+}
+
+
+
+
+.button-threee{
+    width: 90px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+   
+}
+
+
+.button-fourr{
+    width: 90px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+} 
+.button-fivee{
+    width: 90px; 
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.img-one{
+    width: 22px;
+    align-items: center;
+}
+
+.img-two{
+    width: 21px;
+    align-items: center;
+}
+
+
+.img-three{
+    width: 25px;
+    align-items: center;
+}
+
+.pa1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:10px;
+  text-align: center;
+  color: white;
+  margin: 0 0 0 0;
+ 
+}
+
+.pa1::before,.pa1::after{
+  content: "";
+  height: 1.6px;
+  background-color: white;
+  display: block;
+  opacity: 0.5;
+  
+
+}
+
+.pa1-f{
+  margin-bottom: 35px;
+}
+
+.last-p{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+  margin-left: 10px;
+}
+
+.last-p2{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+  
+}
+.last-p2:hover{
+  opacity: 0.5;
+}
+
+.lastp-main{
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+
